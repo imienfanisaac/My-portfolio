@@ -1,0 +1,95 @@
+body {
+    background-color: rgb(184, 182, 180);
+    box-sizing: border-box;
+  }
+  
+  nav {
+    height: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+
+  }
+  .responsive {
+    background-color: #181833;
+    width: 100%;
+  }
+  
+  .photo {
+    width: 60%;
+    height: 90vh;
+    margin: 0 auto;
+    position: relative;
+  }
+  main p {
+    font-size: 18px;
+  }
+  main h3 {
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    font-weight: 500 ;
+  }
+  .tarjetas {
+    min-width: 100%;
+  }
+  
+  .carddiv:hover {
+    color: rgb(50, 50, 50);
+    background-color: rgb(240, 241, 241);
+    transform: scale(1.1);
+  }
+  
+  .fa .checked {
+    color:rgb(255, 255, 0);
+  }
+  
+  .photo img {
+    width: 100%;
+    height: 70vh;
+    border-radius: 0 0 50px 50px;
+
+  }
+  .photo #photog img{
+    position: absolute;
+    top: 2%;
+    width: 78%;
+    height: 72%;
+    z-index: 10;
+    left: 13%;
+    border-radius: 49%;
+  }
+  #calc-form {
+    height: 100vh;
+  }
+  
+  #update-form {
+    display: none;
+    height: 100vh;
+  }
+  
+  button {
+    padding: 0.5rem;
+  }
+  .select {
+    width: 100%;
+  }
+  .select p {
+    background-color: gainsboro;
+    margin-bottom: 5px;
+    width: 100%;
+    text-align: left;
+    padding: 10px;
+    font-size: 15px;
+    text-transform: capitalize;
+  }  
+  .select p:hover {
+    background-color: rgba(159, 156, 156, 0.575);
+  }
+  footer {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    padding: 0.5rem;
+    height: 7.5%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+  }
